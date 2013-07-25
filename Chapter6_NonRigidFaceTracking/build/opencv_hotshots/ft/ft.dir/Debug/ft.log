@@ -1,0 +1,52 @@
+﻿Build started 2013/7/22 10:19:15.
+     1>Project "C:\Users\Arthur\Documents\GitHub\code\Chapter6_NonRigidFaceTracking\build\opencv_hotshots\ft\ft.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "ft.dir\Debug\ft.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule C:/Users/Arthur/Documents/GitHub/code/Chapter6_NonRigidFaceTracking/src/opencv_hotshots/ft/CMakeLists.txt
+         CMake does not need to re-run because C:\Users\Arthur\Documents\GitHub\code\Chapter6_NonRigidFaceTracking\build\opencv_hotshots\ft\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:/OpenCV/2.4.5/opencv/mybuild/install/include /ID:/OpenCV/2.4.5/opencv/mybuild/install/include/opencv /IC:/Users/Arthur/Documents/GitHub/code/Chapter6_NonRigidFaceTracking/src /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"ft.dir\Debug\\" /Fd"C:/Users/Arthur/Documents/GitHub/code/Chapter6_NonRigidFaceTracking/lib/Debug/ft.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\src\opencv_hotshots\ft\ft_data.cpp ..\..\..\src\opencv_hotshots\ft\shape_model.cpp ..\..\..\src\opencv_hotshots\ft\patch_model.cpp ..\..\..\src\opencv_hotshots\ft\face_detector.cpp ..\..\..\src\opencv_hotshots\ft\face_tracker.cpp
+         ft_data.cpp
+         shape_model.cpp
+     1>..\..\..\src\opencv_hotshots\ft\shape_model.cpp(108): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\src\opencv_hotshots\ft\shape_model.cpp(224): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\src\opencv_hotshots\ft\shape_model.cpp(225): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         patch_model.cpp
+     1>..\..\..\src\opencv_hotshots\ft\patch_model.cpp(72): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\..\src\opencv_hotshots\ft\patch_model.cpp(73): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\..\src\opencv_hotshots\ft\patch_model.cpp(74): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\src\opencv_hotshots\ft\patch_model.cpp(204): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\src\opencv_hotshots\ft\patch_model.cpp(204): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         face_detector.cpp
+     1>..\..\..\src\opencv_hotshots\ft\face_detector.cpp(43): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\src\opencv_hotshots\ft\face_detector.cpp(44): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\src\opencv_hotshots\ft\face_detector.cpp(79): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\..\src\opencv_hotshots\ft\face_detector.cpp(80): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\src\opencv_hotshots\ft\face_detector.cpp(81): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\src\opencv_hotshots\ft\face_detector.cpp(102): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\..\src\opencv_hotshots\ft\face_detector.cpp(103): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\src\opencv_hotshots\ft\face_detector.cpp(104): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\src\opencv_hotshots\ft\face_detector.cpp(151): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+         face_tracker.cpp
+     1>..\..\..\src\opencv_hotshots\ft\face_tracker.cpp(33): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\src\opencv_hotshots\ft\face_tracker.cpp(65): warning C4305: '=' : truncation from 'double' to 'float'
+     1>..\..\..\src\opencv_hotshots\ft\face_tracker.cpp(66): warning C4305: '=' : truncation from 'double' to 'float'
+     1>..\..\..\src\opencv_hotshots\ft\face_tracker.cpp(204): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\src\opencv_hotshots\ft\face_tracker.cpp(216): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\Arthur\Documents\GitHub\code\Chapter6_NonRigidFaceTracking\lib\Debug\ft.lib" /NOLOGO ft.dir\Debug\ft_data.obj
+         ft.dir\Debug\shape_model.obj
+         ft.dir\Debug\patch_model.obj
+         ft.dir\Debug\face_detector.obj
+         ft.dir\Debug\face_tracker.obj
+         ft.vcxproj -> C:\Users\Arthur\Documents\GitHub\code\Chapter6_NonRigidFaceTracking\lib\Debug\ft.lib
+       FinalizeBuildStatus:
+         Deleting file "ft.dir\Debug\ft.unsuccessfulbuild".
+         Touching "ft.dir\Debug\ft.lastbuildstate".
+     1>Done Building Project "C:\Users\Arthur\Documents\GitHub\code\Chapter6_NonRigidFaceTracking\build\opencv_hotshots\ft\ft.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.61

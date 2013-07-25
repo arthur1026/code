@@ -387,8 +387,11 @@ int main(int argc,char** argv)
   annotation.set_current_image(0);
   annotation.draw_instructions();
   annotation.idx = 0;
-  while(1){ annotation.draw_connections(); 
-    imshow(annotation.wname,annotation.image); if(waitKey(0) == 'q')break;
+  while(1){
+    annotation.draw_connections(); 
+    imshow(annotation.wname,annotation.image);
+    if(waitKey(0) == 'q')
+      break;
   }
   save_ft(fname.c_str(),annotation.data); 
 
